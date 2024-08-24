@@ -92,6 +92,7 @@ p {
 
 .nav__item{
     color: #2e2f42;
+    margin-right: 40px;
 }
 
 .nav__item:hover,
@@ -102,17 +103,20 @@ p {
 
 .nav__list {
     display: flex;
-    gap: 40px;
     color: #434455;
     font-weight: 500;
     font-size: 16px;
     padding-left: 76px;
 }
 
+.nav__link{
+ color: #2e2f42;
+}
+
 .nav__link:hover,
 .nav__link:focus,
 .nav__link:active {
-    color: #2e2f42;
+    color: #404bbf;
 }
 
 .nav__link:active {
@@ -127,7 +131,10 @@ p {
 
 .address__list {
     display: flex;
-    gap: 40px;
+}
+
+.address__item {
+    margin-right: 40px;
 }
 
 .address__link:hover,
@@ -178,7 +185,7 @@ p {
     padding: 120px 156px;
 }
 
-.services h2 {
+.services-title {
     font-size: 36px;
     margin-bottom: 24px;
     color: #fff;
@@ -187,8 +194,10 @@ p {
 .service {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
-    margin: 0;
+}
+
+.service-li{
+    margin-right: 24px;
 }
 
 .service-description {
@@ -210,6 +219,7 @@ p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
 }
 
 /* Team Section */
@@ -237,7 +247,10 @@ p {
 .team-member {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+}
+
+.team-member-li{
+    margin-right: 24px;
 }
 
 .team-member-description {
@@ -257,7 +270,7 @@ p {
     height: auto;
 }
 
-.team-member h3 {
+.team-member-title {
     margin: 0 0 32px 0;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -266,6 +279,7 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-right: 24px;
 }
 
 .team-member p {
