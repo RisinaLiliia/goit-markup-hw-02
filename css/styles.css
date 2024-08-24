@@ -299,10 +299,9 @@ p {
 
 .row-1,
 .row-2 {
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
-    margin-bottom: 48px;
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 24px;
 }
 
 .card-row-1,
@@ -311,6 +310,7 @@ p {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 24px;
 }
 
 .card-row-1 img,
