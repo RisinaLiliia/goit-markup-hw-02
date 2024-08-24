@@ -70,12 +70,9 @@ p {
     text-transform: uppercase;
 }
 
-.nav__logo--web {
-    color: #4d5ae5;
-}
-
 .nav__logo--studio {
     color: #2e2f42;
+    font-weight: 700px;
 }
 
 .nav__item{
@@ -159,8 +156,6 @@ p {
 }
 
 /* Services Section */
-.services {
-}
 
 .services-title {
     font-size: 36px;
@@ -286,9 +281,6 @@ footer {
     background-color: #2e2f42;
     color: #fff;
     text-align: left;
-}
-
-.footer {
 }
 
 .footer-logo {
