@@ -4,7 +4,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     margin: 0;
-    padding: 0;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -46,7 +45,6 @@ h3 {
 
 ul {
     list-style: none;
-    padding: 0;
     margin: 0;
     color: #2E2F42;
 }
@@ -59,17 +57,7 @@ p {
 
 /* Header */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 156px;
     background-color: #fff;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
 }
 
 .nav__logo {
@@ -102,11 +90,9 @@ p {
 }
 
 .nav__list {
-    display: flex;
     color: #434455;
     font-weight: 500;
     font-size: 16px;
-    padding-left: 76px;
 }
 
 .nav__link{
@@ -129,10 +115,6 @@ p {
     font-style: normal;
 }
 
-.address__list {
-    display: flex;
-}
-
 .address__item {
     margin-right: 40px;
 }
@@ -147,7 +129,6 @@ p {
     background-color: #2e2f42;
     color: #fff;
     text-align: center;
-    padding: 100px 20px;
 }
 
 .hero-title {
@@ -161,10 +142,7 @@ p {
 }
 
 .hero-buton {
-    border-radius: 4px;
-    padding: 16px 32px;
     background-color: #4d5ae5;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     margin-bottom: 188px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -182,18 +160,12 @@ p {
 
 /* Services Section */
 .services {
-    padding: 120px 156px;
 }
 
 .services-title {
     font-size: 36px;
     margin-bottom: 24px;
     color: #fff;
-}
-
-.service {
-    display: flex;
-    justify-content: space-between;
 }
 
 .service-li{
@@ -224,17 +196,11 @@ p {
 
 /* Team Section */
 .team {
-    padding: 120px 156px;
     background-color: #f4f4fd;
     text-align: center;
 }
 
-.team-title {
-    text-transform: capitalize;
-}
-
-.team-member-title {
-    font-family: "Roboto", sans-serif;
+.team-title{
     font-weight: 700;
     font-size: 36px;
     margin-bottom: 72px;
@@ -244,30 +210,9 @@ p {
     text-transform: capitalize;
 }
 
-.team-member {
-    display: flex;
-    justify-content: space-between;
-}
-
-.team-member-li{
+.team-member-li {
     margin-right: 24px;
-}
-
-.team-member-description {
-    font-size: 16px;
-}
-
-.team-member li {
     background: #fff;
-    border-radius: 0 0 4px 4px;
-    padding: 0 0 32px 0;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
-.team-member img {
-    padding: 0 0 32px 0;
-    width: 100%;
-    height: auto;
 }
 
 .team-member-title {
@@ -282,7 +227,7 @@ p {
     margin-right: 24px;
 }
 
-.team-member p {
+.team-member-description {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -296,7 +241,6 @@ p {
 /* Portfolio Section */
 .portfolio {
     text-align: left;
-    padding: 120px 156px;
 }
 
 .portfolio-title {
@@ -311,26 +255,10 @@ p {
     text-transform: capitalize;
 }
 
-.row-1,
-.row-2 {
- display: flex;
- justify-content: space-between;
- margin-bottom: 24px;
-}
-
 .card-row-1,
 .card-row-2 {
     background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-right: 24px;
-}
-
-.card-row-1 img,
-.card-row-2 img {
-    width: 100%;
-    height: auto;
 }
 
 .title-row {
@@ -342,15 +270,12 @@ p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 32px 16px 8px;
 }
 
 .title-row-discr {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    padding-left: 16px;
-    padding-bottom: 32px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -358,36 +283,34 @@ p {
 
 /* Footer */
 footer {
-    padding: 20px 40px;
     background-color: #2e2f42;
     color: #fff;
     text-align: left;
 }
 
-footer {
-    padding: 156px 120px;
+.footer {
 }
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
-   color: #4d5ae5;
-   font-weight: 700px;
-   text-transform: uppercase;
+  letter-spacing: 0.03em; 
+  color: #4d5ae5;
+  font-weight: 700px; 
+  text-transform: uppercase;
 }
 
 .footer__logo--studio {
     color: #f4f4fd;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-weight: 700px;
 }
 
-footer p {
+.footer-description {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
